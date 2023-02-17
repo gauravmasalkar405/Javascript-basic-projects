@@ -1,0 +1,46 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(48, 48, 70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stopwatch-container {
+  color: rgb(222, 223, 224);
+  text-align: center;
+  font-weight: 700;
+}
+
+.digits {
+  font-size: 200px;
+}
+
+.button-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.btn {
+  margin: 0px 20px;
+  height: 2rem;
+  width: 7rem;
+  border-radius: 0.4rem;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: rgb(185, 194, 202);
+}
+
+#start {
+  background-color: rgb(107, 235, 107);
+}
+#stop {
+  background-color: rgb(129, 224, 253);
+}
+#reset {
+  background-color: rgb(252, 123, 123);
+}
