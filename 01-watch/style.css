@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(29, 29, 65);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  color: rgb(231, 228, 224);
+}
+
+.text {
+  font-size: 150px;
+}
+
+#session {
+  font-size: 50px;
+  margin: 0px 30px;
+}
