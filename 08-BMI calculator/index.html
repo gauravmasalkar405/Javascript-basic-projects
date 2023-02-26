@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="heading">
+        <p>BMI Calculator</p>
+      </div>
+      <div class="gender-age">
+        <div class="gender">
+          <p class="heading-text">Gender</p>
+          <div>
+            <button class="tablink" id="male">Male</button>
+            <button class="tablink" id="female">Female</button>
+          </div>
+        </div>
+        <div class="age">
+          <p class="heading-text">Age</p>
+          <input
+            type="number"
+            class="input-style"
+            min="0"
+            id="age-value"
+            value="0"
+          />
+          <span class="units">in years</span>
+        </div>
+      </div>
+      <div class="height-weight">
+        <div class="height">
+          <p class="heading-text">Height</p>
+          <input
+            type="number"
+            class="input-style"
+            min="0"
+            value="0"
+            id="height-value"
+          /><span class="units">in cm's</span>
+        </div>
+        <div class="weight">
+          <p class="heading-text">Weight</p>
+          <input
+            type="number"
+            class="input-style"
+            min="0"
+            value="0"
+            id="weight-value"
+          />
+          <span class="units">in kg's</span>
+        </div>
+      </div>
+      <div class="calculate-btn">
+        <button>Calculate</button>
+      </div>
+      <div class="bmi-text">
+        <p>Your BMI is</p>
+      </div>
+      <div class="bmi-circle">
+        <p id="value">00</p>
+      </div>
+      <div class="result">
+        <p></p>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>

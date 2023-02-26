@@ -1,0 +1,174 @@
+:root {
+  --main-color: #e77817;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: var(--main-color);
+  display: flex;
+}
+
+main {
+  margin: auto;
+  height: 530px;
+  width: 380px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.heading {
+  /* border: 1px solid black; */
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.heading p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.gender-age {
+  width: 100%;
+  /* border: 1px solid black; */
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gender {
+  width: 50%;
+}
+
+.age {
+  width: 50%;
+}
+
+.height-weight {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  margin: 30px 0px;
+}
+
+.height {
+  width: 50%;
+}
+
+.weight {
+  width: 50%;
+}
+
+.calculate-btn {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.heading-text {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.input-style {
+  width: 115px;
+  height: 25px;
+  margin-right: 5px;
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  outline: none;
+  padding-left: 5px;
+}
+
+.input-style::-webkit-outer-spin-button,
+.input-style::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.units {
+  font-size: 13px;
+}
+
+.gender div button {
+  width: 55px;
+  margin-right: 2.5px;
+  height: 25px;
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  transition: 0.5s ease-in;
+}
+
+.active {
+  background-color: #e77817;
+  color: white;
+}
+
+.calculate-btn {
+  margin-bottom: 30px;
+}
+
+.calculate-btn button {
+  background-color: #e77817;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 170px;
+  border-radius: 20px;
+  transition: 0.5ms ease-in-out;
+}
+
+.calculate-btn button:hover {
+  background-color: #e7a572;
+}
+
+.bmi-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bmi-text p {
+  font-size: 0.9rem;
+}
+
+.bmi-circle {
+  margin: 15px auto;
+  border-radius: 50%;
+  border: 2px solid var(--main-color);
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bmi-circle p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+}
+
+.result p {
+  font-size: 25px;
+  font-weight: 600;
+}
