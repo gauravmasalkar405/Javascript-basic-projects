@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="border-box" id="box">
+        <p id="display-text">border-radius: 10px 10px 10px 10px;</p>
+      </div>
+      <div class="scales">
+        <div class="slidecontainer">
+          <p>All sides</p>
+          <input
+            type="range"
+            min="0"
+            max="200"
+            value="10"
+            class="slider"
+            id="allsides"
+            oninput="displaySliderValue(this);"
+          />
+        </div>
+        <div class="slidecontainer">
+          <p>top-left</p>
+          <input
+            type="range"
+            min="0"
+            max="200"
+            value="10"
+            class="slider"
+            id="top-left"
+            oninput="displaySliderValueTopLeft(this);"
+          />
+        </div>
+        <div class="slidecontainer">
+          <p>top-right</p>
+          <input
+            type="range"
+            min="0"
+            max="200"
+            value="10"
+            class="slider"
+            id="top-right"
+            oninput="displaySliderValueTopRight(this);"
+          />
+        </div>
+        <div class="slidecontainer">
+          <p>bottom-right</p>
+          <input
+            type="range"
+            min="0"
+            max="200"
+            value="10"
+            class="slider"
+            id="bottom-right"
+            oninput="displaySliderValueBottomRight(this);"
+          />
+        </div>
+        <div class="slidecontainer">
+          <p>bottom-left</p>
+          <input
+            type="range"
+            min="0"
+            max="200"
+            value="10"
+            class="slider"
+            id="bottom-left"
+            oninput="displaySliderValueBottomLeft(this);"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
