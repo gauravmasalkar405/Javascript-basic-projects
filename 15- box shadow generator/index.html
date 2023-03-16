@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="box"><p>box-shadow: 10px 10px 5px 0px #522f60;</p></div>
+      <div id="values">
+        <div>
+          <p>Horizontal lenth</p>
+          <input
+            type="range"
+            class="slider"
+            min="0"
+            max="200"
+            value="10"
+            id="horizontal-length"
+            oninput="horizontalLength(this)"
+          />
+        </div>
+        <div>
+          <p>Vertiacal lenth</p>
+          <input
+            type="range"
+            class="slider"
+            min="0"
+            max="200"
+            value="10"
+            id="vertical-length"
+            oninput="verticalLength(this)"
+          />
+        </div>
+        <div>
+          <p>Blur radius</p>
+          <input
+            type="range"
+            class="slider"
+            min="0"
+            max="300"
+            value="10"
+            id="blur-radius"
+            oninput="blurRadius(this)"
+          />
+        </div>
+        <div>
+          <p>Spread radius</p>
+          <input
+            type="range"
+            class="slider"
+            min="0"
+            max="200"
+            value="10"
+            id="spread-radius"
+            oninput="spreadRadius(this)"
+          />
+        </div>
+        <div>
+          <p>Shadow color</p>
+          <input
+            id="color-pick"
+            type="color"
+            value="#522f60"
+            oninput="colorPickerA(this)"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
